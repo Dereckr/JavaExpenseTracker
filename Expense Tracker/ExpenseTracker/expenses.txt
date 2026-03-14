@@ -4,3 +4,4 @@ papilla;39.0;comida
 papas;20.0;comida
 salchichas;30.0;comida
 socks;10.5;clothes
+towel;20.0;house items
