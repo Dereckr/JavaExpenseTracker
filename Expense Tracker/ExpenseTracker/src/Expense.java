@@ -29,4 +29,10 @@ public class Expense {
     public String toString() {
         return date + " | " + category + " | $" + amount + " | " + description;
     }
+
+    // This method formats the expense data as a string suitable for saving to a file.
+    public String toFileString() {
+        return description + ";" + amount + ";" + category;
+    }
+
 }

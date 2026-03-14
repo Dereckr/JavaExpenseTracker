@@ -1,0 +1,6 @@
+comida;30.0;comida
+20;20.0;comida
+papilla;39.0;comida
+papas;20.0;comida
+salchichas;30.0;comida
+socks;10.5;clothes
