@@ -1,20 +1,18 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
 
-{Provide a description of your software}
+My software is useful to track your expenses, so you can input a description of the product, the amount that you expended in that product and then the category that is part of, so you can track also your expenses by category and know for example how much you expend in food, leasure or education, to name a few.  
 
-{Describe your purpose for creating this software.}
+The purpose for creating this software is to help people tracking their expenses so the user can be more organized and disciplined with their expenses. 
 
-{Provide a link to your YouTube demonstration. It should be a one minute demo of the software running and a walkthrough of the code.}
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I used Visual Studio Code and also the Extension Pack for Java
 
-{Describe the programming language that you used}
+I used Java as the programming language
 
 # Useful Websites
 
@@ -22,3 +20,4 @@
 
 - [Visual Studio Code](https://code.visualstudio.com/docs/languages/java)
 - [Geeks for Geeks](https://www.geeksforgeeks.org/java/the-override-annotation-in-java/)
+- [w3schools](https://www.w3schools.com/java/)
