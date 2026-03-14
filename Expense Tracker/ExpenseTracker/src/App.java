@@ -14,9 +14,26 @@ public class App {
             System.out.print("\nDescription: ");
             String desc = scanner.nextLine();
 
-            System.out.print("Amount: ");
-            double amount = scanner.nextDouble();
-            scanner.nextLine(); // Important: Clear the "Enter" from the buffer
+            double amount = 0;
+            boolean validAmount = false;
+
+            // This loop ensures that the user enters a valid number for the amount.
+            // It keeps asking until a valid number is entered.
+            while (!validAmount) {
+                System.out.print("Amount (use . or , depending on your PC): ");
+                try {
+                    String input = scanner.nextLine(); // Read the amount as a string first
+                    // Replace comma with dot for decimal separator
+                    amount = Double.parseDouble(input.replace(",", "."));
+                    validAmount = true;
+                } catch (NumberFormatException e) {
+                    System.out.println("Invalid amount! Please enter a number (e.g., 20.30)");
+                }
+            }
+
+            // System.out.print("Amount: ");
+            // double amount = scanner.nextDouble();
+            // scanner.nextLine(); // Important: Clear the "Enter" from the buffer
 
             System.out.print("Category: ");
             String cat = scanner.nextLine();

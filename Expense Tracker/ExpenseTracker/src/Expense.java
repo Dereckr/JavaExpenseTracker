@@ -14,7 +14,7 @@ public class Expense {
         this.date = LocalDate.now();
     }
 
-    // Getters so the information can be analyze later
+    // Getters so the information can be analyzed later
     public double getAmount() {
         return amount;
     }
